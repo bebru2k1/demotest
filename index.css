@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Baloo Da 2', cursive;
+}
+ul{
+    list-style: none;
+}
+.demoweb {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #454545;
+    box-shadow: 0 0 3px 3px #000000;
+}
+.top-header{
+    height: 56px;
+    display: flex;
+}
+.logo{
+   
+    color: #FFFFFF;
+    margin-left:20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.logo li.text1 {
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+}
+.logo li span{
+    color: red;
+}
+.logo li.text2{
+    font-size: 11px;
+    margin-left: 10px;
+    
+}
+.search {    
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 80px;
+   
+
+}
+.search input {
+    background-color: #000000;
+    height: 60%;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.search input[placeholder] {
+    color: #FFFFFF;
+}
+.log{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 30%;
+}
+.login {
+height: 50%;
+border: 1px solid black;
+background-color: black;
+padding: 4px;
+border-radius:20px;
+width: 50%;
+text-align: center;
+margin-right: 20px;
+}
+.logout{
+height: 50%;
+border: 1px solid black;
+background-color: black;
+padding: 4px;
+border-radius:20px;
+width: 50%;
+text-align: center;
+margin-right: 20px;
+}
+
+.top-main {
+    height: 56px;
+    background-color: black;
+    color: white;
+    font-size: 19;
+}
+
+.top-mainul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.top-mainul li {
+   width: 16%;
+   margin-left: 37px;
+}
+.body-main{
+    height: 252px;
+    margin-top: 30px;
+    
+    
+}
+.body-mainul{
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+
+.body-mainul li {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #454545;
+    box-shadow: 0 0 3px 3px #000000;
+    
+}
+.body-main ul li img{
+    width: 95%;
+    height: 95%;
+    margin-left: 5px;
+}
+.body-contten{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.body-contten-l{
+    background-color: #454545;
+    width: 773px;
+    height: 1000px;
+    
+    
+}
+.top-body-contten-l{
+    height: 58px;
+    width: 773px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.top-body-contten-l .text-yl{
+    color: #FCFF5E;
+    margin-left: 25px;
+    font-size: 23px;
+    width: 40%;
+    
+
+}
+.text-body{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+.text-body li{
+    background-color: #EAAB0C;
+    margin-right: 16px;
+    height: 35px;
+    width: 110px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    border-bottom-right-radius: 13px;
+    border-top-left-radius: 13px;
+
+}
+.main-body-contten-l{
+    margin-top: 30px;
+    background-color: black;
+    
+    
+    
+}
+.item-body{
+    background-color: black;
+    height: 339.08px;
+    
+
+}
+
+.item-body ul{
+    display: flex;
+    
+}
+.item-body ul li {
+    width: 33%;
+    height : 339.08px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    margin-left:2px ;
+}
+.item-body ul li img{
+    width: 90%;
+    
+}
+.body-contten-r{
+    background-color: #454545;
+    color: white;
+    width: 224px;
+    height: 1000px;
+    margin-left: 3px;
+}
+
+.top-body-contten-r {
+    height: 58px;
+    background-color: black;
+    text-align: center;
+    line-height: 58px;
+    color: #FF1010;
+    font-size: 23px;
+}
+.fix-margin {
+    margin-bottom: 30px;
+}
+
+.item-bodyr{
+    
+    height: 169.5px;
+    background-color: black;
+    display: flex;
+}
+.a-item{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    
+}
+.item-bodyr .a-item img{ 
+    width: 95%;
+    height: 95%;
+    position: relative;
+    top:4px;
+    z-index: 1;
+}
+.item-bodyr .a-item p {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color : red;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 4px;
+    z-index: 2;   
+}
+.item-bodyr .showname {
+    margin: 10px;
+}
+
